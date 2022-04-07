@@ -1,2 +1,2 @@
 scoreboard players set @s nife_jumps 0
-function #nifeather:events/on_player_jump
+function #nifeather:events/player/on_jump
