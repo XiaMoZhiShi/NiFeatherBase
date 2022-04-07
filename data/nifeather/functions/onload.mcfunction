@@ -11,6 +11,7 @@ scoreboard objectives add nife_new_z dummy
 scoreboard objectives add nife_position_delta dummy
 
 scoreboard objectives add nife_jumps minecraft.custom:minecraft.jump
+#declare objective nife_jumps 用于检测玩家跳跃
 
 
 scoreboard players set #1km nife_stats 100000

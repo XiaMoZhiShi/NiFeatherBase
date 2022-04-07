@@ -4,6 +4,10 @@
         "nifeather:events/player/join/detect",
         "nifeather:events/player/respawn/detect",
         "nifeather:events/player/death/detect",
-        "nifeather:events/player/teleport/detect"
+        "nifeather:events/player/teleport/detect",
+        "nifeather:events/player/jump/detect",
+        "nifeather:events/player/move/detect",
+        "nifeather:events/player/sneak/detect",
+        "nifeather:events/player/sprint/detect"
     ]
 }
