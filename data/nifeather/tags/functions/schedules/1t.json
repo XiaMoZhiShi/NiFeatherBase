@@ -1,0 +1,9 @@
+{
+    "values":
+    [
+        "nifeather:events/player/join/detect",
+        "nifeather:events/player/respawn/detect",
+        "nifeather:events/player/death/detect",
+        "nifeather:events/player/teleport/detect"
+    ]
+}

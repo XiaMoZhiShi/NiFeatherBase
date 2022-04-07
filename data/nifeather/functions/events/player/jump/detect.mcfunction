@@ -1,0 +1,1 @@
+execute as @a[scores={nife_jumps=1..}] at @s run function nifeather:events/player/jump/run
