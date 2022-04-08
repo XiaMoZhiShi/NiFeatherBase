@@ -1,0 +1,11 @@
+{
+    "replace": true,
+    "values":
+    [
+        "nifeather:events/player/death/init",
+        "nifeather:events/player/join/init",
+        "nifeather:events/player/jump/init",
+        "nifeather:events/player/teleport/init",
+        "nifeather:events/player/health_changed/init"
+    ]
+}

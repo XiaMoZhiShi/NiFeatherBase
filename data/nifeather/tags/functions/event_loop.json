@@ -1,0 +1,13 @@
+{
+    "values":
+    [
+        "nifeather:events/player/join/detect",
+        "nifeather:events/player/respawn/detect",
+        "nifeather:events/player/death/detect",
+        "nifeather:events/player/teleport/detect",
+        "nifeather:events/player/jump/detect",
+        "nifeather:events/player/sneak/detect",
+        "nifeather:events/player/sprint/detect",
+        "nifeather:events/player/health_changed/detect"
+    ]
+}

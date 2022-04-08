@@ -9,10 +9,6 @@
 
 #declare tag/function nifeather:init 初始化
 
-#declare tag/function nifeather:events/on_player_death 玩家死亡事件，每5t检测一次
-#declare tag/function nifeather:events/on_player_respawn 玩家重生事件，每5t检测一次
-#declare tag/function nifeather:events/on_player_join 玩家加入事件，每5t检测一次
-
 #declare tag/function nifeather:schedules/1t 计划任务，间隔1刻
 #declare tag/function nifeather:schedules/5t 计划任务，间隔5刻
 #declare tag/function nifeather:schedules/1s 计划任务，间隔1秒
@@ -23,20 +19,7 @@
 #declare loot_table nifeather:rng/1-64 RNG 1~64
 
 #declare objective nife_stats 通用计分板：储存各种信息
-#declare objective nife_time 处理时钟，已弃用
 #declare objective nife_health 通用计分板：获取玩家真实血量
-
-#@private
-#declare objective nife_deaths private:判断玩家是否死亡
-#declare objective nife_quits private:用于触发玩家加入事件
-
-#declare objective nife_last_x 玩家上一刻的X坐标
-#declare objective nife_last_z 玩家上一刻的Z坐标
-
-#declare objective nife_new_x 玩家这一刻的X坐标
-#declare objective nife_new_z 玩家这一刻的Z坐标
-
-#declare objective nife_position_delta 差值
 
 #declare entity #1km 1千米|nife_stats:100000
 #declare entity #1m 1米|nife_stats:100
