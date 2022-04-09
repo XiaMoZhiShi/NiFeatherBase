@@ -1,0 +1,1 @@
+execute as @a at @s unless score @s nife_exp = @s nife_exp_last run function nifeather:events/player/experience/run

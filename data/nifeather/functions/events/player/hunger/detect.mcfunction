@@ -1,0 +1,1 @@
+execute as @a at @s unless score @s nife_hunger = @s nife_hunger_last run function nifeather:events/player/hunger/run

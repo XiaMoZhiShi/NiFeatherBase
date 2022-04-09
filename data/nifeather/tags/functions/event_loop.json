@@ -9,6 +9,8 @@
         "nifeather:events/player/sneak/detect",
         "nifeather:events/player/sprint/detect",
         "nifeather:events/player/health/current/detect",
-        "nifeather:events/player/health/max/detect"
+        "nifeather:events/player/health/max/detect",
+        "nifeather:events/player/experience/detect",
+        "nifeather:events/player/hunger/detect"
     ]
 }

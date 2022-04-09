@@ -7,6 +7,8 @@
         "nifeather:events/player/jump/init",
         "nifeather:events/player/teleport/init",
         "nifeather:events/player/health/current/init",
-        "nifeather:events/player/health/max/init"
+        "nifeather:events/player/health/max/init",
+        "nifeather:events/player/experience/init",
+        "nifeather:events/player/hunger/init"
     ]
 }
