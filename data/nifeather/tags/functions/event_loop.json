@@ -8,6 +8,7 @@
         "nifeather:events/player/jump/detect",
         "nifeather:events/player/sneak/detect",
         "nifeather:events/player/sprint/detect",
-        "nifeather:events/player/health_changed/detect"
+        "nifeather:events/player/health/current/detect",
+        "nifeather:events/player/health/max/detect"
     ]
 }
