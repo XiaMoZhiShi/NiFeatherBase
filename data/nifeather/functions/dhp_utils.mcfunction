@@ -31,6 +31,7 @@
 #declare entity #4 数字|nife_stats:4
 #declare entity #5 数字|nife_stats:5
 #declare entity #6 数字|nife_stats:6
+#declare entity clock 时钟|nife_stats
 
 #declare entity trigger 触发值|nief_position_delta
 

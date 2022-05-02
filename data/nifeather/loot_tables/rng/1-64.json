@@ -2,7 +2,11 @@
     "pools":
     [
         {
-            "rolls": 1,
+            "rolls":
+            {
+                "min": 1,
+                "max": 64
+            },
             "entries":
             [
                 {
@@ -12,15 +16,7 @@
                     [
                         {
                             "function": "set_count",
-                            "count":
-                            {
-                                "max": 64,
-                                "min": 1
-                            }
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{RNG: 1b}"
+                            "count": 0
                         }
                     ]
                 }
