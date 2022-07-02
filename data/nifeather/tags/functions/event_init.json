@@ -9,6 +9,7 @@
         "nifeather:events/player/health/current/init",
         "nifeather:events/player/health/max/init",
         "nifeather:events/player/experience/init",
-        "nifeather:events/player/hunger/init"
+        "nifeather:events/player/hunger/init",
+        "nifeather:events/server/refreshpoint/init"
     ]
 }

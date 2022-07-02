@@ -1,0 +1,1 @@
+execute as @a unless score @s nife_refreshes = $server nife_refreshes at @s run function nifeather:events/player/refresh/run
