@@ -144,3 +144,25 @@
 * 接口标签
     * [`nifeather:events/player/sprint/on_start`](./data/nifeather/tags/functions/events/player/sprint/on_start.json)
     * [`nifeather:events/player/sprint/on_end`](./data/nifeather/tags/functions/events/player/sprint/on_end.json)
+
+### 弓蓄力/蓄力结束事件
+* 描述
+    * 暂无
+
+* 触发条件
+    * 如果玩家激活了`nifeather:mechanics/bowcharge`进度但是没有`__nife_bowCharging`标签，那么将触发蓄力事件
+        * 即：玩家拉弓时触发
+    * 如果玩家有`__nife_bowCharging`标签，但是没触发进度，那么将触发弓蓄力结束事件
+        * 即：当玩家...
+            * 取消拉弓
+            * 切换到其他物品栏
+            * 切换弓到副手
+            * 丢掉弓
+            * ..等一切会中断拉弓的操作
+
+            ...时触发
+        * **接入接口时请留意以上所述**
+
+* 接口标签
+    * [`nifeather:events/player/bowcharge/oncharge`](./data/nifeather/tags/functions/events/player/bowcharge//oncharge.json)
+    * [`nifeather:events/player/bowcharge/ondischarge`](./data/nifeather/tags/functions/events/player/bowcharge/ondischarge.json)

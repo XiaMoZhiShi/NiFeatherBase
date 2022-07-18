@@ -16,9 +16,5 @@
     "requirements":
     [
         ["use"]
-    ],
-    "rewards":
-    {
-        "function": "nifeather:events/player/bowcharge/on_adv_trigger"
-    }
+    ]
 }
