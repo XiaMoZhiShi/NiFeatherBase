@@ -13,6 +13,7 @@
         "nifeather:events/player/experience/detect",
         "nifeather:events/player/hunger/detect",
         "nifeather:events/server/refreshpoint/detect",
-        "nifeather:events/player/refresh/detect"
+        "nifeather:events/player/refresh/detect",
+        "nifeather:events/player/bowcharge/detect"
     ]
 }

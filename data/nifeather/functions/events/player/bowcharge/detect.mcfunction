@@ -1,0 +1,1 @@
+execute if entity @s[tag=__nife_bowCharging, advancements={nifeather:mechanics/bowcharge=false}] run function nifeather:events/player/bowcharge/tag_notcharging

@@ -1,0 +1,24 @@
+{
+    "criteria":
+    {
+        "use":
+        {
+            "trigger": "using_item",
+            "conditions":
+            {
+                "item":
+                {
+                    "items": ["minecraft:bow"]
+                }
+            }
+        }
+    },
+    "requirements":
+    [
+        ["use"]
+    ],
+    "rewards":
+    {
+        "function": "nifeather:events/player/bowcharge/on_adv_trigger"
+    }
+}
