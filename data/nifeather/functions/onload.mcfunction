@@ -12,6 +12,33 @@ scoreboard players set #3 nife_stats 3
 scoreboard players set #4 nife_stats 4
 scoreboard players set #5 nife_stats 5
 scoreboard players set #6 nife_stats 6
+scoreboard players set #20 nife_stats 20
+scoreboard players set #50 nife_stats 50
+
+scoreboard objectives add nife_rTRDisplaySecond dummy
+#declare objective nife_rTRDisplaySecond 剩余时间显示
+
+scoreboard objectives add nife_rTRDisplayMinute dummy
+#declare objective nife_rTRDisplayMinute 剩余时间显示
+
+scoreboard objectives add nife_rTRDisplayHour dummy
+#declare objective nife_rTRDisplayHour 剩余时间显示
+
+scoreboard objectives add nife_rTRDisplayDay dummy
+#declare objective nife_rTRDisplayDay 剩余时间显示
+
+scoreboard objectives add nife_rTRDisplayMs dummy
+#declare objective nife_rTRDisplayMs 剩余时间显示
+
+#设置时间
+scoreboard players set $ticksPerDay nife_stats 1728000
+scoreboard players set $ticksPerHr nife_stats 72000
+scoreboard players set $ticksPerMin nife_stats 1200
+scoreboard players set $ticksPerSec nife_stats 20
+
+scoreboard players set $secsPerMin nife_stats 60
+scoreboard players set $minsPerHr nife_stats 60
+scoreboard players set $hoursPerDay nife_stats 24
 
 function nifeather:loadmsg
 
