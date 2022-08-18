@@ -10,7 +10,12 @@
         "minecraft:zombie_villager",
         "minecraft:zombified_piglin",
         "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:hoglin",
+        "minecraft:zoglin",
+        "minecraft:blaze",
         "minecraft:slime",
+        "minecraft:magma_cube",
         "minecraft:shulker",
         "minecraft:zombie",
         "minecraft:phantom",
@@ -23,6 +28,7 @@
         "minecraft:husk",
         "minecraft:silverfish",
         "minecraft:vex",
+        "minecraft:warden",
         "#minecraft:raiders",
         "#minecraft:skeletons"
     ]
