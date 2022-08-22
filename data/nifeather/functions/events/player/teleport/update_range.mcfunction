@@ -1,0 +1,2 @@
+scoreboard players set trigger_minus_0 nife_position_delta 0
+scoreboard players operation trigger_minus_0 nife_position_delta -= trigger nife_position_delta
