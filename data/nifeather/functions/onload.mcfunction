@@ -30,6 +30,9 @@ scoreboard objectives add nife_rTRDisplayDay dummy
 scoreboard objectives add nife_rTRDisplayMs dummy
 #declare objective nife_rTRDisplayMs 剩余时间显示
 
+scoreboard objectives add nife_settingsTrigger trigger
+#declare objective nife_settingsTrigger 剩余时间显示
+
 #设置时间
 scoreboard players set $ticksPerDay nife_stats 1728000
 scoreboard players set $ticksPerHr nife_stats 72000
