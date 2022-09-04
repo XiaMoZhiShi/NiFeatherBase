@@ -1,8 +1,5 @@
 {
   "replace": false,
   "values": [
-    "minecraft:chain",
-    "minecraft:bamboo",
-    "minecraft:iron_bars"
   ]
 }
