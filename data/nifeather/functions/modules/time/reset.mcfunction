@@ -8,3 +8,5 @@ data remove storage nifeather:settings Time.ToSecond.UnLimited
 data remove storage nifeather:settings Time.ToMinute.UnLimited
 data modify storage nifeather:settings Time.AutoRemove set value true
 #data remove storage nifeather:settings Time.AutoRemove
+
+data remove storage nifeather:settings Time.DoApprox

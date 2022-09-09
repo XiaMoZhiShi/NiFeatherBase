@@ -1,6 +1,7 @@
 #创建计分板
 scoreboard objectives add nife_stats dummy {"text":"nife_stats"}
 scoreboard objectives add nife_health dummy {"text":"nife_health: 非实时更新"}
+scoreboard objectives add nife_clock dummy
 
 scoreboard players set #1km nife_stats 100000
 scoreboard players set #1m nife_stats 100
@@ -53,3 +54,5 @@ function nifeather:scheduler/2t
 function nifeather:scheduler/5t
 function nifeather:scheduler/1s
 function nifeather:scheduler/2s
+
+execute unless score $clockMigrated nife_clock matches 1 run function nifeather:modules/clock/domigrate
